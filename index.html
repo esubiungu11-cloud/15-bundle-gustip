@@ -18,8 +18,8 @@ h1{font-size:16px;padding:12px;background:linear-gradient(90deg,#d4af37,#ff69b4)
 <h1> BUNDLE 5 WARNA BUNGA JASTIP </h1>
 <div id="label">Loading...</div>
 <div class="box" id="box">
-<button class="btn prev" onclick="g(-1)">‹</button>
-<button class="btn next" onclick="g(1)">›</button>
+<button class="btn prev" onclick="g(-1)">â€¹</button>
+<button class="btn next" onclick="g(1)">â€º</button>
 </div>
 <div class="dots" id="dots"></div>
 <script>
@@ -52,4 +52,4 @@ box.addEventListener('touchstart',e=>sx=e.touches[0].clientX);
 box.addEventListener('touchend',e=>{let dx=e.changedTouches[0].clientX-sx;if(dx>50)g(-1);if(dx<-50)g(1);});
 update();
 </script>
-</body></html>
+</body></html> 
